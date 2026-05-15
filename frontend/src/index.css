@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --color-medical-50: #f0f9ff;
+  --color-medical-100: #e0f2fe;
+  --color-medical-200: #bae6fd;
+  --color-medical-300: #7dd3fc;
+  --color-medical-400: #38bdf8;
+  --color-medical-500: #0ea5e9;
+  --color-medical-600: #0284c7;
+  --color-medical-700: #0369a1;
+  --color-medical-800: #075985;
+  --color-medical-900: #0c4a6e;
+  
+  --font-primary: "Inter", sans-serif;
+}
+
+:root {
+  --app-bg: #f8fafc;
+  --app-text: #0f172a;
+  --font-family: "Inter", sans-serif;
+}
+
+.dark {
+  --app-bg: #0f172a;
+  --app-text: #f8fafc;
+  --font-family: "Outfit", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--app-bg);
+    color: var(--app-text);
+    font-family: var(--font-family);
+    transition: background-color 0.3s ease, color 0.3s ease, font-family 0.3s ease;
+    @apply antialiased min-h-screen;
+  }
+}
+
+.dark .glass {
+  @apply bg-slate-800/80 border-slate-700/50;
+}
+
+.dark nav {
+  @apply bg-slate-900 border-slate-800;
+}
+
+.dark h1, .dark h2, .dark h3 {
+  @apply text-white;
+}
+
+.dark p {
+  @apply text-slate-300;
+}
+
+.dark .bg-white {
+  @apply bg-slate-800 border-slate-700;
+}
+
+.dark .bg-slate-50 {
+  @apply bg-slate-900/50;
+}
+
+.dark .bg-slate-100 {
+  @apply bg-slate-700;
+}
+
+.dark textarea {
+  @apply bg-slate-700/50 border-slate-600 text-white placeholder-slate-400;
+}
+
+.dark .shadow-xl {
+  @apply shadow-2xl shadow-black/40;
+}
+
+.dark .prose {
+  @apply text-slate-200;
+}
+
+@utility glass {
+  @apply bg-white/80 backdrop-blur-md border border-white/20;
+}
+
+@utility medical-gradient {
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+@utility float-animation {
+  animation: float 3s ease-in-out infinite;
+}

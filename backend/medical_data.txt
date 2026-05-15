@@ -1,0 +1,35 @@
+Disease: Malaria
+Symptoms: Fever, chills, headache, nausea, muscle pain.
+Transmission: Mosquito bites (Anopheles).
+Treatment: Antimalarial drugs like Chloroquine or ACT.
+Prevention: Mosquito nets, repellents, stagnant water removal.
+
+Disease: Typhoid Fever
+Symptoms: High fever, weakness, stomach pain, headache, loss of appetite.
+Transmission: Contaminated food or water (Salmonella Typhi).
+Treatment: Antibiotics (Ciprofloxacin, Azithromycin).
+Prevention: Hand washing, safe water, vaccination.
+
+Disease: Common Cold
+Symptoms: Runny nose, sneezing, sore throat, cough, mild fever.
+Transmission: Viral infection (rhinovirus) via air or touch.
+Treatment: Rest, fluids, OTC decongestants.
+Prevention: Hand hygiene, avoiding close contact.
+
+Disease: Hypertension (High Blood Pressure)
+Symptoms: Often none ("silent killer"), but can include headaches or shortness of breath.
+Causes: High salt intake, lack of exercise, genetics.
+Treatment: ACE inhibitors, beta-blockers, lifestyle changes (dash diet).
+Prevention: Regular exercise, low sodium diet, stress management.
+
+Disease: Diabetes (Type 2)
+Symptoms: Increased thirst, frequent urination, fatigue, blurred vision.
+Causes: Insulin resistance, sedentary lifestyle, obesity.
+Treatment: Metformin, insulin therapy, blood sugar monitoring.
+Prevention: Healthy eating, physical activity, weight loss.
+
+Disease: Dengue Fever
+Symptoms: High fever, severe headache, pain behind eyes, joint/muscle pain, rash.
+Transmission: Aedes mosquito bites.
+Treatment: Fluids, pain relief (avoid Ibuprofen/Aspirin due to bleeding risk).
+Prevention: Eliminating mosquito breeding sites.
