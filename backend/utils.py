@@ -1,6 +1,6 @@
 import requests
 
-OLLAMA_URL = "http://ollama:11434/api/generate"
+OLLAMA_URL = "http://localhost:11434/api/generate"
 
 def call_mistral(prompt, model="mistral"):
     """Generic function to call Mistral via Ollama."""

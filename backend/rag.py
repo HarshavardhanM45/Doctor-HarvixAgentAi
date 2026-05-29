@@ -5,7 +5,7 @@ import faiss
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from utils import call_mistral
 
-EMBED_URL = "http://ollama:11434/api/embeddings"
+EMBED_URL = "http://localhost:11434/api/embeddings"
 DATA_FILE = "medical_data.txt"
 
 class AdvancedRAG:
